@@ -1,28 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Standings</title>
+        <title>Standings - New York Mets</title>
+        <link rel=stylesheet href="metsStyle.css">
     </head>
     <body>
-        <div class=header>
-            <img src="images/mets_logo_1.jpg" width="20%" style="vertical-align:middle">
+        <div id="header">
+            <img id="headerImage" src="images/mets_logo_1.jpg">
             <br>
+        </div>
+        <div class="navigationBar">
             <a href="index.html">Home</a> | <a href="roster.html">Roster</a> | <a href="schedule.html">Schedule</a> | <a href="standings.html">Standings</a>
         </div>
-        <div class=content style="padding:10px; height:300px">
-            <h1>
-                NL East Standings
-            </h1>
-            <ol>
-                <li>New York Mets</li>
-                <li>Atlanta Braves</li>
-                <li>Washtington Nationals</li>
-                <li>Philadelphia Phillies</li>
-                <li>Miami Marlins</li>
-            </ol>
+        <div class=content>
+            <table class="standings" id="NL East">
+                <tr>
+                    <th colspan="4">NL East Standings</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Team</th>
+                    <th>W</th>
+                    <th>L</th>
+                <tr>
+                    <td class="miniTeamLogo">
+                        <img src="images/mets_mini_logo.png"></td>
+                    <td>New York Mets</td>
+                    <td>34</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td class="miniTeamLogo">
+                        <img src="images/braves_mini_logo.png">
+                    </td>
+                    <td>Atlanta Braves</td>
+                    <td>33</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td class="miniTeamLogo">
+                        <img src="images/Nationals_mini_logo.png">
+                    </td>
+                    <td>Washington Nationals</td>
+                    <td>29</td>
+                    <td>17</td>
+                </tr>         
+                <tr>
+                    <td class="miniTeamLogo">
+                        <img src="images/phillies_mini_logo.png">
+                    </td>
+                    <td>Philadelphia Phillies</td>
+                    <td>22</td>
+                    <td>24</td>
+                </tr>         
+                <tr>
+                    <td class="miniTeamLogo">
+                        <img src="images/marlins_mini_logo.png">
+                    </td>
+                    <td>Miami Marlins</td>
+                    <td>18</td>
+                    <td>29</td>
+                </tr>                
+            </table>
         </div>
     </body>
     <footer>
-        <a href="index.html">Home</a> | <a href="roster.html">Roster</a> | <a href="schedule.html">Schedule</a> | <a href="standings.html">Standings</a>
+        <div class="navigationBar">
+            <a href="index.html">Home</a> | <a href="roster.html">Roster</a> | <a href="schedule.html">Schedule</a> | <a href="standings.html">Standings</a>
+        </div>
     </footer>
 </html>
